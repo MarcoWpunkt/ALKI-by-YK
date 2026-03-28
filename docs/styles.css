@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('sources/textur_blau.jpg');
+    background-repeat: repeat;
+    background-size: 500px 500px; /* Größe der Grafik anpassen */
+  }
+  
+  .video-container {
+    width: auto; /* Breite passt sich automatisch an das Seitenverhältnis an */
+    height: 850px; /* Feste Höhe (kannst du anpassen) */
+    margin: 0 auto; /* Zentriert horizontal */
+    padding: 20px; /* Rand um das Video */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional */
+    border-radius: 10px; /* Optional */
+    box-sizing: border-box; /* Verhindert, dass Padding die Höhe beeinflusst */
+}
+
+video {
+    width: 100%; /* Video nutzt die volle Breite des Containers */
+    height: 100%; /* Video nutzt die volle Höhe des Containers */
+    display: block; /* Verhindert unerwünschte Abstände */
+    object-fit: contain; /* Skaliert proportional und passt in den Container */
+}
