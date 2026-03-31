@@ -49,5 +49,7 @@ video {
   margin: 5px;
   font-size: 15px;
   color: #000000;
-  font-family: 'Arial', sans-serif;
+  /* font-family: 'Arial', sans-serif;*/
+  /* color: #793630; */
+  font-family: 'Comic Sans MS', normal;
 }
